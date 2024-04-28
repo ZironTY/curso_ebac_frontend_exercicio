@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-center {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    padding:  16px ;
+    background-color: #3b5998;
+    color: #fffdd0;
+    max-width: 100%;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #fffdd0 ;
+    text-decoration: none;
+}
+
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+}
+
+section > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre h1 {
+    padding-bottom: 20px;
+    
+}
+
+.produtos img {
+    max-width: 100%;
+    border: 1px solid blue;
+    margin-bottom: 24px;
+}
+.produtos img {
+    width: 320px;
+    height: 320px;
+
+}
+
+button {
+    padding: 16px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .container-center{
+        display: block;
+    }
+
+    .container-center{
+        max-width: 90%;
+    }
+
+    header nav li {
+        display: block;
+        margin-left: 16px;
+        font-size: 24px;
+    }
+    
+    header nav li a {
+        color: #fffdd0 ;
+        text-decoration: none;
+    }
+    
+    
+    header .container,
+    section .container {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    img{
+        width: 330px;
+        height: 320px;
+        padding: 15px;
+        
+        
+    }
+    
+    section > div{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sobre h1 {
+        padding-bottom: 20px;
+        
+    }
+    
+    .produtos img {
+        max-width: 100%;
+        border: 1px solid blue;
+        margin-bottom: 24px;
+    }
+    .produtos img {
+        width: 320px;
+        height: 320px;
+    
+    }
+    
+    button {
+        padding: 16px;
+        
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+    .container-center {
+        max-width: 90%;
+    }
+
+    .produtos img{
+        width: auto;
+        height: auto;
+    }
+}
